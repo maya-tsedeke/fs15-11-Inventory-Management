@@ -27,15 +27,15 @@ Create a class called "Printer" with 2 methods:
 Use good naming convention and access modifier for class, properties, and methods.
 Enter the maximum capacity of the inventory: 100
 ## Descriptions
-The provided code implements a simple inventory management system in C#. The program consists of three classes: Item, Inventory, and Printer.
+The provided code implements a simple inventory management system in C#. The program consists of three classes: `Item`, `Inventory`, and `Printer`.
 
-The Item class represents an item in the inventory. It has private fields for the barcode, name, and quantity. The class provides methods to increase and decrease the quantity, as well as getter methods for the barcode, name, and quantity.
+The `Item` class represents an item in the inventory. It has private fields for the barcode, name, and quantity. The class provides methods to increase and decrease the quantity, as well as getter methods for the barcode, name, and quantity.
 
-The Inventory class is designed as a singleton, allowing only one instance of the inventory. It has private fields for a dictionary of items and the maximum capacity of the inventory. The class provides methods to add and remove items, increase and decrease the quantity of items, and view the inventory. The GetInstance method is used to obtain the singleton instance of the inventory.
+The `Inventory` class is designed as a singleton, allowing only one instance of the inventory. It has private fields for a dictionary of items and the maximum capacity of the inventory. The class provides methods to add and remove items, increase and decrease the quantity of items, and view the inventory. The `GetInstance` method is used to obtain the singleton instance of the inventory.
 
-The Printer class contains two methods: PrintItem and PrintInventory. The PrintItem method takes an Item object as a parameter and prints out information about the item. The PrintInventory method takes an Inventory object as a parameter and prints out information about the inventory, including the total number of unique items and the total number of items.
+The `Printer` class contains two methods: `PrintItem` and `PrintInventory`. The `PrintItem` method takes an `Item` object as a parameter and prints out information about the item. The `PrintInventory` method takes an `Inventory` object as a parameter and prints out information about the inventory, including the total number of unique items and the total number of items.
 
-In the Main method of the Program class, an instance of the Inventory class is created with a maximum capacity of 100. Sample items are added to the inventory, and various operations such as increasing/decreasing quantity, removing items, and viewing the inventory are performed. Additionally, the Printer class is used to print out item and inventory information.
+In the `Main` method of the `Program` class, an instance of the `Inventory` class is created with a maximum capacity of 100. Sample items are added to the inventory, and various operations such as increasing/decreasing quantity, removing items, and viewing the inventory are performed. Additionally, the `Printer` class is used to print out item and inventory information.
 
 Overall, the code provides a basic implementation of an inventory management system, allowing users to interact with the inventory by adding, removing, and modifying items, as well as viewing the current state of the inventory.
 
